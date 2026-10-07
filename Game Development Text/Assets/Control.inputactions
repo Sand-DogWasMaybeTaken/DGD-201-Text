@@ -1,0 +1,69 @@
+{
+    "version": 1,
+    "name": "Control",
+    "maps": [
+        {
+            "name": "Keyboard Keys",
+            "id": "9bd0e38e-c184-4ede-aa3a-33af0ccba1eb",
+            "actions": [
+                {
+                    "name": "Increase Score",
+                    "type": "PassThrough",
+                    "id": "9af1e615-3e2b-44cb-96d6-19fe9abe0e2b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Decrease Score",
+                    "type": "PassThrough",
+                    "id": "df0b4cce-e8a9-416d-b8f6-1189b99073de",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ee80f4f0-1088-4763-b018-a086e32d1c3b",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Increase Score",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "150d4a39-8adc-4a38-9705-f3ea3228ddcc",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Decrease Score",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Game Control",
+            "bindingGroup": "Game Control",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
